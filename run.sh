@@ -4,5 +4,5 @@ if [ ${1}x == "clean"x ];then
 	exit 0
 fi
 
-python3 analyze.py -f demo.cpp -c out_cpp.cpp -p out_pb.proto -E
+cd demo; python3 ../analyze.py -f demo.cpp -c out_cpp.cpp -p out_pb.proto -E
 

@@ -447,7 +447,7 @@ def cpp2proto(cpp_lines, out_cpp_file, out_proto_file, params:Params):
     logging.info(">>>>>>>>>>>>>>>>>>>>>>>")
     for userClass in type_map_user_defined.values():
         logging.info(userClass)
-        proto, set_func, get_func = class2proto(cpp_lines_object, userClass, "", "online_upgrade::access", "shmObj", "pbObj")
+        proto, set_func, get_func = class2proto(cpp_lines_object, userClass, "", "test_namespace::test", "cppObj", "pbObj")
         #logging.info(proto)
         #logging.info(set_func)
         #logging.info(get_func)

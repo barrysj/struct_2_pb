@@ -1,0 +1,31 @@
+[False:False] struct MyStruct{
+[False:False] unsigned ip;
+[False:False] unsigned short port;
+[False:False] };
+[False:True] 
+[False:False] class MyClass
+[False:False] {
+[False:False] int m1;
+[False:False] unsigned int m2;
+[False:False] long long m3;
+[False:True] 
+[False:False] uint8_t m4;
+[False:False] uint32_t m5;
+[False:False] uint32_t m6;
+[False:True] 
+[True:True] /*
+[True:True] int m8;
+[True:True] int m9;
+[True:True] */
+[False:False] int foo(int& bar) {
+[False:False] return 0;
+[False:False] }
+[False:True] 
+[False:False] MyStruct   s1;
+[False:False] MyStruct   s2;
+[False:True] 
+[False:False] unsigned arr1[10];
+[False:False] unsigned arr2[10][20];
+[False:True] 
+[False:False] char reverse[100];
+[False:False] };

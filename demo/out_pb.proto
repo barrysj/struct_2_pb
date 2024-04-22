@@ -1,0 +1,16 @@
+message MyStruct{
+	optional uint32 ip = 1;
+	optional uint32 port = 2;
+}
+message MyClass{
+	optional int32 m1 = 1;
+	optional uint32 m2 = 2;
+	optional int64 m3 = 3;
+	optional uint32 m4 = 4;
+	optional uint32 m5 = 5;
+	optional uint32 m6 = 6;
+	optional MyStruct s1 = 7;
+	optional MyStruct s2 = 8;
+	repeated uint32 arr1 = 9; // 10
+	repeated uint32 arr2 = 10; // 10 * 20
+}
