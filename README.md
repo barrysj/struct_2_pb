@@ -1,4 +1,5 @@
 一个工具，用于将C/C++的类/结构体转为对应pb协议，并生成一份C++类对象和pb对象互相转换的C++代码
+A tool used to generate protobuf message based on C/C++ struct/class, and c++ function to transfer between c++ object and pb object
 
 此工具的输入：
 * 一份包含了C的类或结构体的代码片段
